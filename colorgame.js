@@ -54,7 +54,7 @@ squares[i].addEventListener("click" , function(){
 var clickedcolor = this.style.backgroundColor;
 //compare color is picked color 
 if(clickedcolor === pickedColor){
-message.textContent = "wohoo Thats right !!";
+message.textContent = "Thats right!!";
 changecolors(clickedcolor);
 resetbutton.textContent = "Play again";
 h1.style.backgroundColor = pickedColor ;
